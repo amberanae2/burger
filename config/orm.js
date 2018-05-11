@@ -32,7 +32,7 @@ var orm = {
   },
 
   insertOne: function(table, cols, vals, cb) {
-		var queryString = 'INSERT INTO ' + table + ' (' + columnString + ') ' + 'VALUES(' + "'" + values + "'" + ');'
+		var queryString = 'INSERT INTO ' + table + ' (' + column + ') ' + 'VALUES(' + "'" + values + "'" + ');'
     console.log(queryString);
 
     connection.query(queryString, vals, function(err, result) {

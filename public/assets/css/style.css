@@ -1,0 +1,19 @@
+body {
+   background:lightseagreen;
+   width: 99%;
+    height: 900px;
+
+}
+
+h1 {
+      color:yellow;
+}
+
+.list-reset {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border: 0;
+  }
+
+  
